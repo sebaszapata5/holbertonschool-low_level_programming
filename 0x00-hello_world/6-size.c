@@ -6,15 +6,9 @@
 */
 int main(void)
 {
-int entero;
-char caracter;
-long int enterolargo;
-long long int enterolargolargo;
-float flotante;
-printf("size of a char: "sizeof(caracter));
-printf("size of a int: "sizeof(entero));
-printf("size of a long int: "sizeof(enterolargo));
-printf("size of a long long int: "sizeof(enterolargolargo));
-printf("size of a float: "sizeof(flotante));
+printf("size of a char: %lu\n", sizeof(char));
+printf("size of an int: %lu\n", sizeof(int));
+printf("size of a long long int: %lu\n", sizeof(float));
+printf("size of a float: %lu\n", sizeof(double));
 return (0);
 }
