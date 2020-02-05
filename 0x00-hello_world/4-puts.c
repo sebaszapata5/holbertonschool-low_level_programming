@@ -1,7 +1,11 @@
 #include <studio.h>
-#include <stdlib.h>
-int main()
+/**
+ * main - Entry point
+ *
+ *Return: Always 0 (Succes)
+ */
+int main(void)
 { 
-puts ("Programming is like building a multilingual puzzle");
-return (0);
+  puts ("\"Programming is like building a multilingual puzzle");
+  return (0);
 }
