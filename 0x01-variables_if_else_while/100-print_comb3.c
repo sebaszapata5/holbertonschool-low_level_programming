@@ -7,13 +7,18 @@
 int main(void)
 {
 int num;
-for (num = '0'; num <= '9'; num++)
+int dec;
+for (dec = '0'; dec <= '8'; dec++)
 {
+for (num = dec + 1 ; num <= '9'; num++)
+{
+putchar (dec);
 putchar (num);
-if (num != '9')
+if (!(dec == '8' && num == '9'))
 {
 putchar (',');
 putchar (' ');
+}
 }
 }
 putchar ('\n');
