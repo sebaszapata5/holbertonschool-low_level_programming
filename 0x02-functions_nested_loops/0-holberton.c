@@ -1,12 +1,12 @@
 #include "holberton.h"
 /**
  * main - check the code for Holberton School students.
- *
+ *putchar proyect
  * Return: Always 0.
  */
 int main(void)
 {
-char *string = "Holberton\n";
+char *string = "Holberton";
 short i = 0;
 while (string[i]!= '\0')
 {
