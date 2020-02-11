@@ -1,21 +1,15 @@
 #include "holberton.h"
 /**
- * main - check the code for Holberton School students.
+ * print_alphabet - entry point
  *
- * Return: Always 0.
+ * return: void
  */
-int print_alphabet(void)
-char c;for (c = 'A' ; c <= 'Z' ; c++)
-short i = 0;
-while (string[c]!= '\0')
+void print_alphabet(void)
 {
-short c = 0;
-while (string[c]!= '\0')
-{
-_putchar(string[c]);
-i++;
+char c;
+for (c = 'a' ; c <= 'z' ; c++)
 {
 _putchar (c);
 }
-return (0);
+_putchar ('\n');
 }
