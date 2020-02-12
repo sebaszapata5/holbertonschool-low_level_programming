@@ -1,0 +1,25 @@
+#include "holberton.h"
+#include <stdlib.h>
+/**
+ * jack_bauer - writes the character c to stdout
+ * @n: The character to print
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+void jack_bauer(void)
+{
+int hor;
+int min;
+for (hor = 0; hor <= 23; hor++)
+{
+for (min = 0; min <= 59; min++)
+{
+_putchar ('0' + hor / 10);
+_putchar ('0' + hor % 10);
+_putchar (':');
+_putchar ('0' + min / 10);
+_putchar ('0' + min % 10);
+_putchar ('\n');
+}
+}
+}
