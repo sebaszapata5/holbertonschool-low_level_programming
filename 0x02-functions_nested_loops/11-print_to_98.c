@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  * print_to_98 - check the code for Holberton School students.
- * @n
- * Return: Always 0.
+ * @n evakuate numbers
+ * return: Always 0.
  */
 void print_to_98(int n)
 {
@@ -12,7 +12,7 @@ while (sw == 1)
 {
 if (n < 98)
 {
-printf("%d  ", n);
+printf("%d, ", n);
 n = (n + 1);
 }
 else if (n > 98)
