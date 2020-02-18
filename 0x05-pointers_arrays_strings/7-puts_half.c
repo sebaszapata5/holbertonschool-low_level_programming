@@ -4,23 +4,24 @@
  * @str: variable s
  * Return: Always 0.
  */
+
 void puts_half(char *str)
 {
-	int i = 0;
-	int n = 0;
+	int n;
+	int length_of_the_string;
 
-	while (str[i] != '\0')
+	length_of_the_string = 0;
+	n = 0;
+	while (str[length_of_the_string] != '\0')
 	{
-		i++;
+		if ((length_of_the_string % 2) != 0)
+			{
+				n = (length_of_the_string - 1) / 2;
+				n++;
+			}
+	length_of_the_string++;
 	}
-	if ((i % 2) == 0)
-	{
-		n = (i / 2);
-	}
-	else
-	{
-		n = (i - 1) / 2;
-	}
+	n++;
 	while (str[n] != '\0')
 	{
 		_putchar(str[n]);

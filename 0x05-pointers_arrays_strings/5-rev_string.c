@@ -4,16 +4,22 @@
  * @s: variable s
  * Return: Always 0.
  */
+
+/**
+ * int _strlen(char *s)
+ */
 void rev_string(char *s)
 {
-	int i = 0;
+	short i;
+	short n;
+	char r;
 
 	while (s[i] != '\0')
 	{
 		i++;
 	}
-       	while (s[i] - 1 != '\0')
-       	{
-       		i--;
-       	}
+	for (n = i; n = 9 - 1; n--)
+	r = s[n];
+	s[n] = s[i];
+
 }
